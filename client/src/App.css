@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 14px !important;
+}
+
+
+.hide-scroll::-webkit-scrollbar {
+    width: 0px;
+}
