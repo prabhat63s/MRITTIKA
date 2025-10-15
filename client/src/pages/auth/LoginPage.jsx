@@ -49,7 +49,7 @@ export default function LoginPage() {
                 navigate(from, { replace: true });
             }
         }
-    }, [user, navigate]);
+    }, [user, navigate, from]);
 
 
     // Reset error/success state on mode change
