@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function CheckoutPage() {
   const dispatch = useDispatch();
-  const { items, promoCode, discount } = useSelector((state) => state.cart);
+  const { items, discount } = useSelector((state) => state.cart);
   const { user } = useSelector((state) => state.auth);
   const navigate = useNavigate();
   const DELIVERY_CHARGE = 50;
